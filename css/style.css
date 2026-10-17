@@ -448,12 +448,10 @@ body a {
   background: #fef2e6 url("../images/main/main-lines.svg") top right/58% no-repeat;
 }
 .decor-main-section__box::before {
-  -webkit-animation: rotate 300s infinite linear;
-          animation: rotate 300s infinite linear;
+  animation: rotate 300s infinite linear;
 }
 .decor-main-section__box::after {
-  -webkit-animation: rotate 350s infinite linear;
-          animation: rotate 350s infinite linear;
+  animation: rotate 350s infinite linear;
 }
 .decor-main-section__image {
   position: absolute;
@@ -471,15 +469,6 @@ body a {
   left: 0;
   max-width: 100%;
   border-radius: 16px;
-}
-
-@-webkit-keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes rotate {
@@ -1396,12 +1385,6 @@ body a {
   font-weight: 400;
   line-height: 1.21;
 }
-.form__input:-ms-input-placeholder {
-  color: #656d72;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.21;
-}
 .form__input::placeholder {
   color: #656d72;
   font-size: 14px;
@@ -1409,9 +1392,6 @@ body a {
   line-height: 1.21;
 }
 .form__input::focus::-moz-placeholder {
-  color: #232e35;
-}
-.form__input::focus:-ms-input-placeholder {
   color: #232e35;
 }
 .form__input::focus::placeholder {
